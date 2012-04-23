@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="tedisplay-gui"
+	ProjectGUID="{83A7E1C3-B505-3156-A632-03CB0AE8C2ED}">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="."
+			IntermediateDirectory="obj\"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions="-Zm200 -w34100 -w34189"
+				Optimization="1"
+				AdditionalIncludeDirectories="..\..\..\..\tradeequip\src\lib,..\lib,..\..\..\..\tradeequip\src\lib,$(QTDIR)\include,tmp\ui\,.,.,tmp\moc\,C:\Qt\3.3.6\mkspecs\win32-msvc.net"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,TRADEEQUIP_EXPORT,TRADEEQUIP_EXPORT,_CRT_SECURE_NO_DEPRECATE,QT_DLL,QT_THREAD_SUPPORT,NDEBUG"
+				GeneratePreprocessedFile="0"
+				ExceptionHandling="FALSE"
+				RuntimeLibrary="2"
+				BufferSecurityCheck="FALSE"
+				AssemblerListingLocation="obj\"
+				ObjectFile="obj\"
+				ProgramDataBaseFileName=".\"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				IgnoreImportLibrary="TRUE"
+				AdditionalDependencies="qt-mt336.lib qtmain.lib tradeequip.lib tradeequip.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib imm32.lib winmm.lib wsock32.lib winspool.lib delayimp.lib"
+				OutputFile=".\tedisplay-gui.exe"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="$(QTDIR)\lib,../../../../tradeequip/lib,/src/tradeequip/lib"
+				DelayLoadDLLs="comdlg32.dll,oleaut32.dll,winmm.dll,wsock32.dll,winspool.dll"
+				GenerateDebugInformation="FALSE"
+				ProgramDatabaseFile=""
+				SubSystem="2"/>
+			<Tool
+				Name="VCMIDLTool"
+				WarningLevel="0"
+				DefaultCharType="0"
+				EnableErrorChecks="1"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+		</Configuration>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="."
+			IntermediateDirectory="Debug\"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions="-Zm200 -w34100 -w34189"
+				Optimization="1"
+				AdditionalIncludeDirectories="..\..\..\..\tradeequip\src\lib,..\lib,..\..\..\..\tradeequip\src\lib,$(QTDIR)\include,tmp\ui\,.,.,tmp\moc\,C:\Qt\3.3.6\mkspecs\win32-msvc.net"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,TRADEEQUIP_EXPORT,TRADEEQUIP_EXPORT,_CRT_SECURE_NO_DEPRECATE,QT_DLL,QT_THREAD_SUPPORT"
+				GeneratePreprocessedFile="0"
+				MinimalRebuild="TRUE"
+				ExceptionHandling="FALSE"
+				RuntimeLibrary="2"
+				BufferSecurityCheck="FALSE"
+				AssemblerListingLocation="Debug\"
+				ObjectFile="Debug\"
+				ProgramDataBaseFileName=".\"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				IgnoreImportLibrary="TRUE"
+				AdditionalDependencies="qt-mt336.lib qtmain.lib tradeequip.lib tradeequip.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib imm32.lib winmm.lib wsock32.lib winspool.lib delayimp.lib"
+				OutputFile="Debug\\tedisplay-gui.exe"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="$(QTDIR)\lib,../../../../tradeequip/lib,/src/tradeequip/lib"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=""
+				SubSystem="2"/>
+			<Tool
+				Name="VCMIDLTool"
+				WarningLevel="0"
+				DefaultCharType="0"
+				EnableErrorChecks="1"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat">
+			<File
+				RelativePath="dconfig.ui.h">
+			</File>
+			<File
+				RelativePath="lsbinder.cpp">
+			</File>
+			<File
+				RelativePath="main.cpp">
+			</File>
+			<File
+				RelativePath="mainform.ui.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl">
+			<File
+				RelativePath="lsbinder.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Generated MOC Files"
+			Filter="cpp;c;cxx;moc">
+			<File
+				RelativePath="tmp\moc\moc_dconfig.cpp">
+			</File>
+			<File
+				RelativePath="tmp\moc\moc_mainform.cpp">
+			</File>
+		</Filter>
+		<Filter
+			Name="Generated Form Files"
+			Filter="cpp;c;cxx;h;hpp;hxx;">
+			<File
+				RelativePath="tmp\ui\dconfig.cpp">
+			</File>
+			<File
+				RelativePath="tmp\ui\dconfig.h">
+			</File>
+			<File
+				RelativePath="tmp\ui\mainform.cpp">
+			</File>
+			<File
+				RelativePath="tmp\ui\mainform.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Forms"
+			Filter="ui"
+			ParseFiles="FALSE">
+			<File
+				RelativePath="dconfig.ui">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Uic&apos;ing dconfig.ui..."
+						CommandLine="$(QTDIR)\bin\uic.exe dconfig.ui -o tmp\ui\dconfig.h
+$(QTDIR)\bin\uic.exe dconfig.ui -i dconfig.h -o tmp\ui\dconfig.cpp
+$(QTDIR)\bin\moc.exe tmp\ui\dconfig.h -o tmp\moc\moc_dconfig.cpp
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;$(QTDIR)\bin\uic.exe"
+						Outputs="tmp\ui\dconfig.h;tmp\ui\dconfig.cpp;tmp\moc\moc_dconfig.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Uic&apos;ing dconfig.ui..."
+						CommandLine="$(QTDIR)\bin\uic.exe dconfig.ui -o tmp\ui\dconfig.h
+$(QTDIR)\bin\uic.exe dconfig.ui -i dconfig.h -o tmp\ui\dconfig.cpp
+$(QTDIR)\bin\moc.exe tmp\ui\dconfig.h -o tmp\moc\moc_dconfig.cpp
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;$(QTDIR)\bin\uic.exe"
+						Outputs="tmp\ui\dconfig.h;tmp\ui\dconfig.cpp;tmp\moc\moc_dconfig.cpp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="mainform.ui">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Uic&apos;ing mainform.ui..."
+						CommandLine="$(QTDIR)\bin\uic.exe mainform.ui -o tmp\ui\mainform.h
+$(QTDIR)\bin\uic.exe mainform.ui -i mainform.h -o tmp\ui\mainform.cpp
+$(QTDIR)\bin\moc.exe tmp\ui\mainform.h -o tmp\moc\moc_mainform.cpp
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;$(QTDIR)\bin\uic.exe"
+						Outputs="tmp\ui\mainform.h;tmp\ui\mainform.cpp;tmp\moc\moc_mainform.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Uic&apos;ing mainform.ui..."
+						CommandLine="$(QTDIR)\bin\uic.exe mainform.ui -o tmp\ui\mainform.h
+$(QTDIR)\bin\uic.exe mainform.ui -i mainform.h -o tmp\ui\mainform.cpp
+$(QTDIR)\bin\moc.exe tmp\ui\mainform.h -o tmp\moc\moc_mainform.cpp
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;$(QTDIR)\bin\uic.exe"
+						Outputs="tmp\ui\mainform.h;tmp\ui\mainform.cpp;tmp\moc\moc_mainform.cpp"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Translations Files"
+			Filter="ts"
+			ParseFiles="FALSE">
+			<File
+				RelativePath="..\..\..\translations\tedisplay-gui-en.ts">
+			</File>
+			<File
+				RelativePath="..\..\..\translations\tedisplay-gui-ru.ts">
+			</File>
+		</Filter>
+		<Filter
+			Name="Resources"
+			Filter="cpp;ico;png;jpg;jpeg;gif;xpm;bmp;rc;ts"
+			ParseFiles="FALSE">
+			<File
+				RelativePath="logo.bmp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generate imagecollection"
+						CommandLine="echo logo.bmp &gt; .imgcol
+$(QTDIR)\bin\uic.exe -embed tedisplay-gui -f .imgcol -o tmp\ui\qmake_image_collection.cpp
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;logo.bmp"
+						Outputs="tmp\ui\qmake_image_collection.cpp;.imgcol"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generate imagecollection"
+						CommandLine="echo logo.bmp &gt; .imgcol
+$(QTDIR)\bin\uic.exe -embed tedisplay-gui -f .imgcol -o tmp\ui\qmake_image_collection.cpp
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;logo.bmp"
+						Outputs="tmp\ui\qmake_image_collection.cpp;.imgcol"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="tmp\ui\qmake_image_collection.cpp">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

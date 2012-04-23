@@ -1,0 +1,87 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtecashregister-shtrih-fr", "cashregisters\shtrih-fr\lib\libtecashregister-shtrih-fr.vcproj", "{3BCEA165-834A-3583-9FAC-5CD33447EF73}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tecashregister-shtrih-fr-test", "cashregisters\shtrih-fr\test\tecashregister-shtrih-fr-test.vcproj", "{D49CB4FC-D2C8-3603-8CD8-1B472650F1CA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtedisplay-vf2029", "displays\vf2029\lib\libtedisplayvf2029.vcproj", "{2FE260E5-164A-3BC8-BC00-F35649C840CD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtedisplay-epson", "displays\epson\lib\libtedisplayepson.vcproj", "{AB7A8F14-BC2E-3822-85BE-9438F94DC029}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtedisplay-dsp800", "displays\dsp800\lib\libtedisplay-dsp800.vcproj", "{006A86E4-0B26-3347-9801-AAFB953B19DF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtedisplay-pc", "displays\pc\lib\libtedisplay-pc.vcproj", "{E52B19DA-75E4-30C0-9BD3-0159A373825A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tedisplay-gui", "displays\pc\gui\tedisplay-gui.vcproj", "{83A7E1C3-B505-3156-A632-03CB0AE8C2ED}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tedisplay-test", "displays\test\tedisplay-test.vcproj", "{D4A132D2-7CA4-310B-88ED-F7A223F81FC3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtereader-barcode", "readers\barcode\libtereader-barcode.vcproj", "{F9EE9654-1409-3646-9ADC-ED2554608F0C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtereader-card", "readers\card\libtereader-card.vcproj", "{51B08846-0167-30BF-9BEA-68267B18F4DB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tereader-test", "readers\test\tereadertest.vcproj", "{1FBB9D13-2459-36B3-A672-0B254C291E82}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tescales-test", "scales\test\tescalestest.vcproj", "{D1E7442D-1915-32F0-A485-17A87D2BD2AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3BCEA165-834A-3583-9FAC-5CD33447EF73}.Debug.ActiveCfg = Debug|Win32
+		{3BCEA165-834A-3583-9FAC-5CD33447EF73}.Debug.Build.0 = Debug|Win32
+		{3BCEA165-834A-3583-9FAC-5CD33447EF73}.Release.ActiveCfg = Release|Win32
+		{3BCEA165-834A-3583-9FAC-5CD33447EF73}.Release.Build.0 = Release|Win32
+		{D49CB4FC-D2C8-3603-8CD8-1B472650F1CA}.Debug.ActiveCfg = Debug|Win32
+		{D49CB4FC-D2C8-3603-8CD8-1B472650F1CA}.Debug.Build.0 = Debug|Win32
+		{D49CB4FC-D2C8-3603-8CD8-1B472650F1CA}.Release.ActiveCfg = Release|Win32
+		{D49CB4FC-D2C8-3603-8CD8-1B472650F1CA}.Release.Build.0 = Release|Win32
+		{2FE260E5-164A-3BC8-BC00-F35649C840CD}.Debug.ActiveCfg = Debug|Win32
+		{2FE260E5-164A-3BC8-BC00-F35649C840CD}.Debug.Build.0 = Debug|Win32
+		{2FE260E5-164A-3BC8-BC00-F35649C840CD}.Release.ActiveCfg = Release|Win32
+		{2FE260E5-164A-3BC8-BC00-F35649C840CD}.Release.Build.0 = Release|Win32
+		{AB7A8F14-BC2E-3822-85BE-9438F94DC029}.Debug.ActiveCfg = Debug|Win32
+		{AB7A8F14-BC2E-3822-85BE-9438F94DC029}.Debug.Build.0 = Debug|Win32
+		{AB7A8F14-BC2E-3822-85BE-9438F94DC029}.Release.ActiveCfg = Release|Win32
+		{AB7A8F14-BC2E-3822-85BE-9438F94DC029}.Release.Build.0 = Release|Win32
+		{006A86E4-0B26-3347-9801-AAFB953B19DF}.Debug.ActiveCfg = Debug|Win32
+		{006A86E4-0B26-3347-9801-AAFB953B19DF}.Debug.Build.0 = Debug|Win32
+		{006A86E4-0B26-3347-9801-AAFB953B19DF}.Release.ActiveCfg = Release|Win32
+		{006A86E4-0B26-3347-9801-AAFB953B19DF}.Release.Build.0 = Release|Win32
+		{E52B19DA-75E4-30C0-9BD3-0159A373825A}.Debug.ActiveCfg = Debug|Win32
+		{E52B19DA-75E4-30C0-9BD3-0159A373825A}.Debug.Build.0 = Debug|Win32
+		{E52B19DA-75E4-30C0-9BD3-0159A373825A}.Release.ActiveCfg = Release|Win32
+		{E52B19DA-75E4-30C0-9BD3-0159A373825A}.Release.Build.0 = Release|Win32
+		{83A7E1C3-B505-3156-A632-03CB0AE8C2ED}.Debug.ActiveCfg = Debug|Win32
+		{83A7E1C3-B505-3156-A632-03CB0AE8C2ED}.Debug.Build.0 = Debug|Win32
+		{83A7E1C3-B505-3156-A632-03CB0AE8C2ED}.Release.ActiveCfg = Release|Win32
+		{83A7E1C3-B505-3156-A632-03CB0AE8C2ED}.Release.Build.0 = Release|Win32
+		{D4A132D2-7CA4-310B-88ED-F7A223F81FC3}.Debug.ActiveCfg = Debug|Win32
+		{D4A132D2-7CA4-310B-88ED-F7A223F81FC3}.Debug.Build.0 = Debug|Win32
+		{D4A132D2-7CA4-310B-88ED-F7A223F81FC3}.Release.ActiveCfg = Release|Win32
+		{D4A132D2-7CA4-310B-88ED-F7A223F81FC3}.Release.Build.0 = Release|Win32
+		{F9EE9654-1409-3646-9ADC-ED2554608F0C}.Debug.ActiveCfg = Debug|Win32
+		{F9EE9654-1409-3646-9ADC-ED2554608F0C}.Debug.Build.0 = Debug|Win32
+		{F9EE9654-1409-3646-9ADC-ED2554608F0C}.Release.ActiveCfg = Release|Win32
+		{F9EE9654-1409-3646-9ADC-ED2554608F0C}.Release.Build.0 = Release|Win32
+		{51B08846-0167-30BF-9BEA-68267B18F4DB}.Debug.ActiveCfg = Debug|Win32
+		{51B08846-0167-30BF-9BEA-68267B18F4DB}.Debug.Build.0 = Debug|Win32
+		{51B08846-0167-30BF-9BEA-68267B18F4DB}.Release.ActiveCfg = Release|Win32
+		{51B08846-0167-30BF-9BEA-68267B18F4DB}.Release.Build.0 = Release|Win32
+		{1FBB9D13-2459-36B3-A672-0B254C291E82}.Debug.ActiveCfg = Debug|Win32
+		{1FBB9D13-2459-36B3-A672-0B254C291E82}.Debug.Build.0 = Debug|Win32
+		{1FBB9D13-2459-36B3-A672-0B254C291E82}.Release.ActiveCfg = Release|Win32
+		{1FBB9D13-2459-36B3-A672-0B254C291E82}.Release.Build.0 = Release|Win32
+		{D1E7442D-1915-32F0-A485-17A87D2BD2AB}.Debug.ActiveCfg = Debug|Win32
+		{D1E7442D-1915-32F0-A485-17A87D2BD2AB}.Debug.Build.0 = Debug|Win32
+		{D1E7442D-1915-32F0-A485-17A87D2BD2AB}.Release.ActiveCfg = Release|Win32
+		{D1E7442D-1915-32F0-A485-17A87D2BD2AB}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

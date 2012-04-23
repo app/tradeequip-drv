@@ -1,0 +1,1041 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>MainForm</class>
+<widget class="QMainWindow">
+    <property name="name">
+        <cstring>MainForm</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>780</width>
+            <height>646</height>
+        </rect>
+    </property>
+    <property name="sizePolicy">
+        <sizepolicy>
+            <hsizetype>5</hsizetype>
+            <vsizetype>5</vsizetype>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+    </property>
+    <property name="minimumSize">
+        <size>
+            <width>660</width>
+            <height>534</height>
+        </size>
+    </property>
+    <property name="baseSize">
+        <size>
+            <width>0</width>
+            <height>0</height>
+        </size>
+    </property>
+    <property name="paletteBackgroundColor">
+        <color>
+            <red>0</red>
+            <green>0</green>
+            <blue>127</blue>
+        </color>
+    </property>
+    <property name="caption">
+        <string>Ams-100f display</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLabel" row="0" column="0" rowspan="1" colspan="2">
+            <property name="name">
+                <cstring>Header</cstring>
+            </property>
+            <property name="paletteForegroundColor">
+                <color>
+                    <red>255</red>
+                    <green>255</green>
+                    <blue>255</blue>
+                </color>
+            </property>
+            <property name="paletteBackgroundColor">
+                <color>
+                    <red>85</red>
+                    <green>170</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>32</pointsize>
+                    <bold>1</bold>
+                </font>
+            </property>
+            <property name="frameShape">
+                <enum>Box</enum>
+            </property>
+            <property name="text">
+                <string>2006 (c) Leader InfoTech</string>
+            </property>
+            <property name="textFormat">
+                <enum>AutoText</enum>
+            </property>
+            <property name="scaledContents">
+                <bool>true</bool>
+            </property>
+            <property name="alignment">
+                <set>WordBreak|AlignVCenter</set>
+            </property>
+        </widget>
+        <widget class="QLayoutWidget" row="1" column="0" rowspan="1" colspan="2">
+            <property name="name">
+                <cstring>layout31</cstring>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLayoutWidget" row="0" column="1">
+                    <property name="name">
+                        <cstring>layout30</cstring>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLayoutWidget" row="1" column="0">
+                            <property name="name">
+                                <cstring>layout29</cstring>
+                            </property>
+                            <grid>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <spacer row="0" column="1">
+                                    <property name="name">
+                                        <cstring>spacer2</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>16</width>
+                                            <height>20</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                                <widget class="QLayoutWidget" row="0" column="2">
+                                    <property name="name">
+                                        <cstring>layout9</cstring>
+                                    </property>
+                                    <grid>
+                                        <property name="name">
+                                            <cstring>unnamed</cstring>
+                                        </property>
+                                        <widget class="QLabel" row="1" column="1">
+                                            <property name="name">
+                                                <cstring>Discount</cstring>
+                                            </property>
+                                            <property name="paletteForegroundColor">
+                                                <color>
+                                                    <red>255</red>
+                                                    <green>255</green>
+                                                    <blue>255</blue>
+                                                </color>
+                                            </property>
+                                            <property name="paletteBackgroundColor">
+                                                <color>
+                                                    <red>0</red>
+                                                    <green>85</green>
+                                                    <blue>127</blue>
+                                                </color>
+                                            </property>
+                                            <property name="font">
+                                                <font>
+                                                    <pointsize>30</pointsize>
+                                                    <bold>1</bold>
+                                                </font>
+                                            </property>
+                                            <property name="frameShape">
+                                                <enum>Box</enum>
+                                            </property>
+                                            <property name="margin">
+                                                <number>2</number>
+                                            </property>
+                                            <property name="text">
+                                                <string></string>
+                                            </property>
+                                            <property name="alignment">
+                                                <set>AlignVCenter|AlignRight</set>
+                                            </property>
+                                        </widget>
+                                        <widget class="QLabel" row="1" column="0">
+                                            <property name="name">
+                                                <cstring>tDiscount</cstring>
+                                            </property>
+                                            <property name="paletteForegroundColor">
+                                                <color>
+                                                    <red>255</red>
+                                                    <green>255</green>
+                                                    <blue>255</blue>
+                                                </color>
+                                            </property>
+                                            <property name="paletteBackgroundColor">
+                                                <color>
+                                                    <red>0</red>
+                                                    <green>0</green>
+                                                    <blue>127</blue>
+                                                </color>
+                                            </property>
+                                            <property name="font">
+                                                <font>
+                                                    <pointsize>35</pointsize>
+                                                </font>
+                                            </property>
+                                            <property name="frameShape">
+                                                <enum>NoFrame</enum>
+                                            </property>
+                                            <property name="text">
+                                                <string>Скидка</string>
+                                            </property>
+                                        </widget>
+                                        <widget class="QLabel" row="0" column="1">
+                                            <property name="name">
+                                                <cstring>Quantity</cstring>
+                                            </property>
+                                            <property name="minimumSize">
+                                                <size>
+                                                    <width>140</width>
+                                                    <height>0</height>
+                                                </size>
+                                            </property>
+                                            <property name="paletteForegroundColor">
+                                                <color>
+                                                    <red>255</red>
+                                                    <green>255</green>
+                                                    <blue>255</blue>
+                                                </color>
+                                            </property>
+                                            <property name="paletteBackgroundColor">
+                                                <color>
+                                                    <red>0</red>
+                                                    <green>85</green>
+                                                    <blue>127</blue>
+                                                </color>
+                                            </property>
+                                            <property name="font">
+                                                <font>
+                                                    <pointsize>30</pointsize>
+                                                    <bold>1</bold>
+                                                </font>
+                                            </property>
+                                            <property name="frameShape">
+                                                <enum>Box</enum>
+                                            </property>
+                                            <property name="margin">
+                                                <number>2</number>
+                                            </property>
+                                            <property name="midLineWidth">
+                                                <number>0</number>
+                                            </property>
+                                            <property name="text">
+                                                <string></string>
+                                            </property>
+                                            <property name="alignment">
+                                                <set>AlignVCenter|AlignRight</set>
+                                            </property>
+                                        </widget>
+                                        <widget class="QLabel" row="0" column="0">
+                                            <property name="name">
+                                                <cstring>tQuantity</cstring>
+                                            </property>
+                                            <property name="paletteForegroundColor">
+                                                <color>
+                                                    <red>255</red>
+                                                    <green>255</green>
+                                                    <blue>255</blue>
+                                                </color>
+                                            </property>
+                                            <property name="paletteBackgroundColor">
+                                                <color>
+                                                    <red>0</red>
+                                                    <green>0</green>
+                                                    <blue>127</blue>
+                                                </color>
+                                            </property>
+                                            <property name="font">
+                                                <font>
+                                                    <pointsize>35</pointsize>
+                                                </font>
+                                            </property>
+                                            <property name="frameShape">
+                                                <enum>NoFrame</enum>
+                                            </property>
+                                            <property name="text">
+                                                <string>Кол-во</string>
+                                            </property>
+                                        </widget>
+                                    </grid>
+                                </widget>
+                                <widget class="QLayoutWidget" row="0" column="0">
+                                    <property name="name">
+                                        <cstring>layout25</cstring>
+                                    </property>
+                                    <grid>
+                                        <property name="name">
+                                            <cstring>unnamed</cstring>
+                                        </property>
+                                        <widget class="QLabel" row="1" column="0">
+                                            <property name="name">
+                                                <cstring>Summa</cstring>
+                                            </property>
+                                            <property name="paletteForegroundColor">
+                                                <color>
+                                                    <red>255</red>
+                                                    <green>255</green>
+                                                    <blue>255</blue>
+                                                </color>
+                                            </property>
+                                            <property name="paletteBackgroundColor">
+                                                <color>
+                                                    <red>0</red>
+                                                    <green>85</green>
+                                                    <blue>127</blue>
+                                                </color>
+                                            </property>
+                                            <property name="font">
+                                                <font>
+                                                    <pointsize>30</pointsize>
+                                                    <bold>1</bold>
+                                                </font>
+                                            </property>
+                                            <property name="frameShape">
+                                                <enum>Box</enum>
+                                            </property>
+                                            <property name="margin">
+                                                <number>2</number>
+                                            </property>
+                                            <property name="text">
+                                                <string></string>
+                                            </property>
+                                            <property name="alignment">
+                                                <set>AlignVCenter|AlignRight</set>
+                                            </property>
+                                        </widget>
+                                        <widget class="QLabel" row="0" column="0">
+                                            <property name="name">
+                                                <cstring>Price</cstring>
+                                            </property>
+                                            <property name="minimumSize">
+                                                <size>
+                                                    <width>140</width>
+                                                    <height>0</height>
+                                                </size>
+                                            </property>
+                                            <property name="paletteForegroundColor">
+                                                <color>
+                                                    <red>255</red>
+                                                    <green>255</green>
+                                                    <blue>255</blue>
+                                                </color>
+                                            </property>
+                                            <property name="paletteBackgroundColor">
+                                                <color>
+                                                    <red>0</red>
+                                                    <green>85</green>
+                                                    <blue>127</blue>
+                                                </color>
+                                            </property>
+                                            <property name="font">
+                                                <font>
+                                                    <pointsize>30</pointsize>
+                                                    <bold>1</bold>
+                                                </font>
+                                            </property>
+                                            <property name="frameShape">
+                                                <enum>Box</enum>
+                                            </property>
+                                            <property name="margin">
+                                                <number>2</number>
+                                            </property>
+                                            <property name="text">
+                                                <string></string>
+                                            </property>
+                                            <property name="alignment">
+                                                <set>AlignVCenter|AlignRight</set>
+                                            </property>
+                                        </widget>
+                                    </grid>
+                                </widget>
+                            </grid>
+                        </widget>
+                        <widget class="QLabel" row="0" column="0">
+                            <property name="name">
+                                <cstring>BueName</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>5</hsizetype>
+                                    <vsizetype>5</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="paletteForegroundColor">
+                                <color>
+                                    <red>255</red>
+                                    <green>255</green>
+                                    <blue>255</blue>
+                                </color>
+                            </property>
+                            <property name="paletteBackgroundColor">
+                                <color>
+                                    <red>0</red>
+                                    <green>85</green>
+                                    <blue>127</blue>
+                                </color>
+                            </property>
+                            <property name="font">
+                                <font>
+                                    <pointsize>30</pointsize>
+                                    <bold>1</bold>
+                                </font>
+                            </property>
+                            <property name="frameShape">
+                                <enum>Box</enum>
+                            </property>
+                            <property name="text">
+                                <string></string>
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+                <widget class="QLayoutWidget" row="0" column="0">
+                    <property name="name">
+                        <cstring>layout24</cstring>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel" row="0" column="0">
+                            <property name="name">
+                                <cstring>tBueName</cstring>
+                            </property>
+                            <property name="paletteForegroundColor">
+                                <color>
+                                    <red>255</red>
+                                    <green>255</green>
+                                    <blue>255</blue>
+                                </color>
+                            </property>
+                            <property name="paletteBackgroundColor">
+                                <color>
+                                    <red>0</red>
+                                    <green>0</green>
+                                    <blue>127</blue>
+                                </color>
+                            </property>
+                            <property name="font">
+                                <font>
+                                    <pointsize>35</pointsize>
+                                </font>
+                            </property>
+                            <property name="frameShape">
+                                <enum>NoFrame</enum>
+                            </property>
+                            <property name="text">
+                                <string>Товар</string>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="1" column="0">
+                            <property name="name">
+                                <cstring>tPrice</cstring>
+                            </property>
+                            <property name="paletteForegroundColor">
+                                <color>
+                                    <red>255</red>
+                                    <green>255</green>
+                                    <blue>255</blue>
+                                </color>
+                            </property>
+                            <property name="paletteBackgroundColor">
+                                <color>
+                                    <red>0</red>
+                                    <green>0</green>
+                                    <blue>127</blue>
+                                </color>
+                            </property>
+                            <property name="font">
+                                <font>
+                                    <pointsize>35</pointsize>
+                                </font>
+                            </property>
+                            <property name="frameShape">
+                                <enum>NoFrame</enum>
+                            </property>
+                            <property name="text">
+                                <string>Цена</string>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="2" column="0">
+                            <property name="name">
+                                <cstring>tSum</cstring>
+                            </property>
+                            <property name="paletteForegroundColor">
+                                <color>
+                                    <red>255</red>
+                                    <green>255</green>
+                                    <blue>255</blue>
+                                </color>
+                            </property>
+                            <property name="paletteBackgroundColor">
+                                <color>
+                                    <red>0</red>
+                                    <green>0</green>
+                                    <blue>127</blue>
+                                </color>
+                            </property>
+                            <property name="font">
+                                <font>
+                                    <pointsize>35</pointsize>
+                                </font>
+                            </property>
+                            <property name="frameShape">
+                                <enum>NoFrame</enum>
+                            </property>
+                            <property name="text">
+                                <string>Сумма</string>
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="QLayoutWidget" row="2" column="0">
+            <property name="name">
+                <cstring>layout23</cstring>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>TDiscount</cstring>
+                    </property>
+                    <property name="minimumSize">
+                        <size>
+                            <width>0</width>
+                            <height>0</height>
+                        </size>
+                    </property>
+                    <property name="paletteForegroundColor">
+                        <color>
+                            <red>255</red>
+                            <green>255</green>
+                            <blue>255</blue>
+                        </color>
+                    </property>
+                    <property name="paletteBackgroundColor">
+                        <color>
+                            <red>0</red>
+                            <green>85</green>
+                            <blue>127</blue>
+                        </color>
+                    </property>
+                    <property name="font">
+                        <font>
+                            <pointsize>20</pointsize>
+                            <bold>1</bold>
+                        </font>
+                    </property>
+                    <property name="frameShape">
+                        <enum>Box</enum>
+                    </property>
+                    <property name="margin">
+                        <number>2</number>
+                    </property>
+                    <property name="text">
+                        <string></string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignVCenter|AlignLeft</set>
+                    </property>
+                </widget>
+                <widget class="QTable">
+                    <column>
+                        <property name="text">
+                            <string>Товар</string>
+                        </property>
+                        <property name="pixmap">
+                            <pixmap></pixmap>
+                        </property>
+                    </column>
+                    <column>
+                        <property name="text">
+                            <string>Цена</string>
+                        </property>
+                        <property name="pixmap">
+                            <pixmap></pixmap>
+                        </property>
+                    </column>
+                    <column>
+                        <property name="text">
+                            <string>Кол-во</string>
+                        </property>
+                        <property name="pixmap">
+                            <pixmap></pixmap>
+                        </property>
+                    </column>
+                    <column>
+                        <property name="text">
+                            <string>Сумма</string>
+                        </property>
+                        <property name="pixmap">
+                            <pixmap></pixmap>
+                        </property>
+                    </column>
+                    <property name="name">
+                        <cstring>BuesList</cstring>
+                    </property>
+                    <property name="font">
+                        <font>
+                            <family>Serif</family>
+                            <pointsize>14</pointsize>
+                            <bold>1</bold>
+                        </font>
+                    </property>
+                    <property name="focusPolicy">
+                        <enum>NoFocus</enum>
+                    </property>
+                    <property name="midLineWidth">
+                        <number>1</number>
+                    </property>
+                    <property name="resizePolicy">
+                        <enum>Default</enum>
+                    </property>
+                    <property name="hScrollBarMode">
+                        <enum>AlwaysOff</enum>
+                    </property>
+                    <property name="numRows">
+                        <number>0</number>
+                    </property>
+                    <property name="numCols">
+                        <number>4</number>
+                    </property>
+                    <property name="rowMovingEnabled">
+                        <bool>false</bool>
+                    </property>
+                    <property name="readOnly">
+                        <bool>true</bool>
+                    </property>
+                    <property name="selectionMode">
+                        <enum>SingleRow</enum>
+                    </property>
+                    <property name="focusStyle">
+                        <enum>FollowStyle</enum>
+                    </property>
+                </widget>
+            </vbox>
+        </widget>
+        <widget class="QLayoutWidget" row="2" column="1">
+            <property name="name">
+                <cstring>layout24</cstring>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer8</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>30</width>
+                            <height>16</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout22</cstring>
+                    </property>
+                    <vbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>layout16</cstring>
+                            </property>
+                            <grid>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="QLabel" row="4" column="2">
+                                    <property name="name">
+                                        <cstring>Change</cstring>
+                                    </property>
+                                    <property name="sizePolicy">
+                                        <sizepolicy>
+                                            <hsizetype>1</hsizetype>
+                                            <vsizetype>5</vsizetype>
+                                            <horstretch>0</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="paletteForegroundColor">
+                                        <color>
+                                            <red>255</red>
+                                            <green>255</green>
+                                            <blue>255</blue>
+                                        </color>
+                                    </property>
+                                    <property name="paletteBackgroundColor">
+                                        <color>
+                                            <red>0</red>
+                                            <green>85</green>
+                                            <blue>127</blue>
+                                        </color>
+                                    </property>
+                                    <property name="font">
+                                        <font>
+                                            <pointsize>30</pointsize>
+                                            <bold>1</bold>
+                                        </font>
+                                    </property>
+                                    <property name="frameShape">
+                                        <enum>Box</enum>
+                                    </property>
+                                    <property name="margin">
+                                        <number>2</number>
+                                    </property>
+                                    <property name="text">
+                                        <string></string>
+                                    </property>
+                                    <property name="scaledContents">
+                                        <bool>false</bool>
+                                    </property>
+                                    <property name="alignment">
+                                        <set>AlignVCenter|AlignRight</set>
+                                    </property>
+                                </widget>
+                                <widget class="QLabel" row="2" column="0" rowspan="1" colspan="2">
+                                    <property name="name">
+                                        <cstring>tTotal</cstring>
+                                    </property>
+                                    <property name="paletteForegroundColor">
+                                        <color>
+                                            <red>255</red>
+                                            <green>255</green>
+                                            <blue>255</blue>
+                                        </color>
+                                    </property>
+                                    <property name="paletteBackgroundColor">
+                                        <color>
+                                            <red>0</red>
+                                            <green>0</green>
+                                            <blue>127</blue>
+                                        </color>
+                                    </property>
+                                    <property name="font">
+                                        <font>
+                                            <pointsize>35</pointsize>
+                                        </font>
+                                    </property>
+                                    <property name="frameShape">
+                                        <enum>NoFrame</enum>
+                                    </property>
+                                    <property name="text">
+                                        <string>Итого</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLabel" row="3" column="0" rowspan="1" colspan="2">
+                                    <property name="name">
+                                        <cstring>tCache</cstring>
+                                    </property>
+                                    <property name="paletteForegroundColor">
+                                        <color>
+                                            <red>255</red>
+                                            <green>255</green>
+                                            <blue>255</blue>
+                                        </color>
+                                    </property>
+                                    <property name="paletteBackgroundColor">
+                                        <color>
+                                            <red>0</red>
+                                            <green>0</green>
+                                            <blue>127</blue>
+                                        </color>
+                                    </property>
+                                    <property name="font">
+                                        <font>
+                                            <pointsize>35</pointsize>
+                                        </font>
+                                    </property>
+                                    <property name="frameShape">
+                                        <enum>NoFrame</enum>
+                                    </property>
+                                    <property name="text">
+                                        <string>Налич</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLabel" row="1" column="2" rowspan="2" colspan="1">
+                                    <property name="name">
+                                        <cstring>Total</cstring>
+                                    </property>
+                                    <property name="sizePolicy">
+                                        <sizepolicy>
+                                            <hsizetype>1</hsizetype>
+                                            <vsizetype>5</vsizetype>
+                                            <horstretch>144</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="minimumSize">
+                                        <size>
+                                            <width>140</width>
+                                            <height>0</height>
+                                        </size>
+                                    </property>
+                                    <property name="paletteForegroundColor">
+                                        <color>
+                                            <red>255</red>
+                                            <green>255</green>
+                                            <blue>255</blue>
+                                        </color>
+                                    </property>
+                                    <property name="paletteBackgroundColor">
+                                        <color>
+                                            <red>0</red>
+                                            <green>85</green>
+                                            <blue>127</blue>
+                                        </color>
+                                    </property>
+                                    <property name="font">
+                                        <font>
+                                            <pointsize>30</pointsize>
+                                            <bold>1</bold>
+                                        </font>
+                                    </property>
+                                    <property name="frameShape">
+                                        <enum>Box</enum>
+                                    </property>
+                                    <property name="lineWidth">
+                                        <number>1</number>
+                                    </property>
+                                    <property name="margin">
+                                        <number>2</number>
+                                    </property>
+                                    <property name="midLineWidth">
+                                        <number>0</number>
+                                    </property>
+                                    <property name="text">
+                                        <string></string>
+                                    </property>
+                                    <property name="alignment">
+                                        <set>AlignVCenter|AlignRight</set>
+                                    </property>
+                                </widget>
+                                <widget class="QLabel" row="4" column="0" rowspan="1" colspan="2">
+                                    <property name="name">
+                                        <cstring>tChange</cstring>
+                                    </property>
+                                    <property name="paletteForegroundColor">
+                                        <color>
+                                            <red>255</red>
+                                            <green>255</green>
+                                            <blue>255</blue>
+                                        </color>
+                                    </property>
+                                    <property name="paletteBackgroundColor">
+                                        <color>
+                                            <red>0</red>
+                                            <green>0</green>
+                                            <blue>127</blue>
+                                        </color>
+                                    </property>
+                                    <property name="font">
+                                        <font>
+                                            <pointsize>35</pointsize>
+                                        </font>
+                                    </property>
+                                    <property name="frameShape">
+                                        <enum>NoFrame</enum>
+                                    </property>
+                                    <property name="text">
+                                        <string>Сдача</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLabel" row="3" column="2">
+                                    <property name="name">
+                                        <cstring>Cache</cstring>
+                                    </property>
+                                    <property name="sizePolicy">
+                                        <sizepolicy>
+                                            <hsizetype>1</hsizetype>
+                                            <vsizetype>5</vsizetype>
+                                            <horstretch>0</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="paletteForegroundColor">
+                                        <color>
+                                            <red>255</red>
+                                            <green>255</green>
+                                            <blue>255</blue>
+                                        </color>
+                                    </property>
+                                    <property name="paletteBackgroundColor">
+                                        <color>
+                                            <red>0</red>
+                                            <green>85</green>
+                                            <blue>127</blue>
+                                        </color>
+                                    </property>
+                                    <property name="font">
+                                        <font>
+                                            <pointsize>30</pointsize>
+                                            <bold>1</bold>
+                                        </font>
+                                    </property>
+                                    <property name="frameShape">
+                                        <enum>Box</enum>
+                                    </property>
+                                    <property name="margin">
+                                        <number>2</number>
+                                    </property>
+                                    <property name="text">
+                                        <string></string>
+                                    </property>
+                                    <property name="alignment">
+                                        <set>AlignVCenter|AlignRight</set>
+                                    </property>
+                                </widget>
+                            </grid>
+                        </widget>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>layout21</cstring>
+                            </property>
+                            <hbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <spacer>
+                                    <property name="name">
+                                        <cstring>spacer3</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>164</width>
+                                            <height>20</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                                <widget class="QPushButton">
+                                    <property name="name">
+                                        <cstring>bSeettings</cstring>
+                                    </property>
+                                    <property name="paletteForegroundColor">
+                                        <color>
+                                            <red>255</red>
+                                            <green>255</green>
+                                            <blue>255</blue>
+                                        </color>
+                                    </property>
+                                    <property name="paletteBackgroundColor">
+                                        <color>
+                                            <red>0</red>
+                                            <green>0</green>
+                                            <blue>127</blue>
+                                        </color>
+                                    </property>
+                                    <property name="font">
+                                        <font>
+                                        </font>
+                                    </property>
+                                    <property name="text">
+                                        <string>(c) Leader InfoTech, 2002-2006</string>
+                                    </property>
+                                    <property name="flat">
+                                        <bool>true</bool>
+                                    </property>
+                                </widget>
+                            </hbox>
+                        </widget>
+                    </vbox>
+                </widget>
+            </vbox>
+        </widget>
+    </grid>
+</widget>
+<menubar>
+    <property name="name">
+        <cstring>menubar</cstring>
+    </property>
+</menubar>
+<toolbars>
+</toolbars>
+<connections>
+    <connection>
+        <sender>bSeettings</sender>
+        <signal>clicked()</signal>
+        <receiver>MainForm</receiver>
+        <slot>config()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="local" impldecl="in declaration">qsocket.h</include>
+    <include location="local" impldecl="in declaration">lsbinder.h</include>
+    <include location="local" impldecl="in implementation">mainform.ui.h</include>
+</includes>
+<variables>
+    <variable access="public">Serializer m_Serializer;</variable>
+    <variable access="public">QSocket *socket;</variable>
+    <variable access="public">QString host, termname;</variable>
+    <variable access="public">int m_bChClosed;</variable>
+    <variable access="public">int port;</variable>
+</variables>
+<slots>
+    <slot specifier="non virtual">init()</slot>
+    <slot specifier="non virtual">closeConnection()</slot>
+    <slot specifier="non virtual">sendToServer()</slot>
+    <slot specifier="non virtual">socketReadyRead()</slot>
+    <slot specifier="non virtual">socketConnected()</slot>
+    <slot specifier="non virtual">socketConnectionClosed()</slot>
+    <slot specifier="non virtual">socketClosed()</slot>
+    <slot specifier="non virtual">socketError( int )</slot>
+    <slot>config()</slot>
+    <slot>reset()</slot>
+</slots>
+<functions>
+    <function access="protected" specifier="non virtual">timerEvent( QTimerEvent * )</function>
+    <function access="protected">mousePressEvent( QMouseEvent * e )</function>
+    <function>fixProductNameSize()</function>
+    <function access="protected" specifier="non virtual" returnType="bool">eventFilter( QObject * pO, QEvent * pE )</function>
+    <function specifier="non virtual">setHostName( const QString &amp; sHost )</function>
+    <function specifier="non virtual" returnType="QString">hostName() const</function>
+    <function specifier="non virtual">setPort( int iPort )</function>
+    <function specifier="non virtual" returnType="int">portNumber() const</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="2" margin="5"/>
+</UI>

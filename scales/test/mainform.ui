@@ -1,0 +1,281 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>MainForm</class>
+<widget class="QMainWindow">
+    <property name="name">
+        <cstring>MainForm</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>356</width>
+            <height>161</height>
+        </rect>
+    </property>
+    <property name="sizePolicy">
+        <sizepolicy>
+            <hsizetype>5</hsizetype>
+            <vsizetype>5</vsizetype>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+    </property>
+    <property name="minimumSize">
+        <size>
+            <width>344</width>
+            <height>161</height>
+        </size>
+    </property>
+    <property name="baseSize">
+        <size>
+            <width>0</width>
+            <height>0</height>
+        </size>
+    </property>
+    <property name="caption">
+        <string>Торговое оборудование - весы v.1.0</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLayoutWidget" row="0" column="0">
+            <property name="name">
+                <cstring>layout4</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel1_4</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Модель</string>
+                    </property>
+                </widget>
+                <widget class="QComboBox">
+                    <item>
+                        <property name="text">
+                            <string>Меркурий-315</string>
+                        </property>
+                    </item>
+                    <property name="name">
+                        <cstring>comboBox1</cstring>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel1_2</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Порт</string>
+                    </property>
+                </widget>
+                <widget class="QSpinBox">
+                    <property name="name">
+                        <cstring>ePortNum</cstring>
+                    </property>
+                    <property name="minValue">
+                        <number>1</number>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <spacer row="0" column="1">
+            <property name="name">
+                <cstring>spacer2</cstring>
+            </property>
+            <property name="orientation">
+                <enum>Horizontal</enum>
+            </property>
+            <property name="sizeType">
+                <enum>Expanding</enum>
+            </property>
+            <property name="sizeHint">
+                <size>
+                    <width>51</width>
+                    <height>21</height>
+                </size>
+            </property>
+        </spacer>
+        <widget class="QLayoutWidget" row="1" column="0" rowspan="1" colspan="2">
+            <property name="name">
+                <cstring>layout3</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel1</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Цена</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit">
+                    <property name="name">
+                        <cstring>Price</cstring>
+                    </property>
+                    <property name="text">
+                        <string>.</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignRight</set>
+                    </property>
+                    <property name="inputMask">
+                        <string>0009.99; </string>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel1_3</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Вес</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit">
+                    <property name="name">
+                        <cstring>Weight</cstring>
+                    </property>
+                    <property name="text">
+                        <string>.</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignRight</set>
+                    </property>
+                    <property name="inputMask">
+                        <string>0009.999; </string>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel2</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Сумма</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit">
+                    <property name="name">
+                        <cstring>Summ</cstring>
+                    </property>
+                    <property name="text">
+                        <string>0.00</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignRight</set>
+                    </property>
+                    <property name="readOnly">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <spacer row="2" column="0">
+            <property name="name">
+                <cstring>spacer1</cstring>
+            </property>
+            <property name="orientation">
+                <enum>Vertical</enum>
+            </property>
+            <property name="sizeType">
+                <enum>Expanding</enum>
+            </property>
+            <property name="sizeHint">
+                <size>
+                    <width>20</width>
+                    <height>21</height>
+                </size>
+            </property>
+        </spacer>
+        <widget class="QLayoutWidget" row="3" column="0" rowspan="1" colspan="2">
+            <property name="name">
+                <cstring>layout12</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>bGet</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Читать вес</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>bSet</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Установить цену</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>bExit</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Выход</string>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+    </grid>
+</widget>
+<menubar>
+    <property name="name">
+        <cstring>qt_dead_widget_menubar</cstring>
+    </property>
+</menubar>
+<toolbars>
+</toolbars>
+<connections>
+    <connection>
+        <sender>bExit</sender>
+        <signal>clicked()</signal>
+        <receiver>MainForm</receiver>
+        <slot>close()</slot>
+    </connection>
+    <connection>
+        <sender>bGet</sender>
+        <signal>clicked()</signal>
+        <receiver>MainForm</receiver>
+        <slot>GetNum()</slot>
+    </connection>
+    <connection>
+        <sender>bSet</sender>
+        <signal>clicked()</signal>
+        <receiver>MainForm</receiver>
+        <slot>SetNum()</slot>
+    </connection>
+    <connection>
+        <sender>ePortNum</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>MainForm</receiver>
+        <slot>SetPortOptions()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="local" impldecl="in implementation">mainform.ui.h</include>
+</includes>
+<variables>
+    <variable access="public">int port;</variable>
+</variables>
+<slots>
+    <slot specifier="non virtual">init()</slot>
+    <slot>destroy()</slot>
+    <slot>SetPortOptions()</slot>
+    <slot>GetNum()</slot>
+    <slot>SetNum()</slot>
+    <slot>display()</slot>
+</slots>
+<pixmapinproject/>
+<layoutdefaults spacing="5" margin="5"/>
+</UI>

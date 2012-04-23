@@ -1,0 +1,3 @@
+TEMPLATE = subdirs
+SUBDIRS  = lib gui 
+DEFINES += _CRT_SECURE_NO_DEPRECATE 

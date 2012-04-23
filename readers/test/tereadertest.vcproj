@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.00"
+	Name="tereader-test"
+	ProjectGUID="{1FBB9D13-2459-36B3-A672-0B254C291E82}">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="."
+			IntermediateDirectory="obj\"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions="-Zm200 -w34100 -w34189"
+				Optimization="1"
+				AdditionalIncludeDirectories="..\..\..\tradeequip\src\lib,..\..\..\tradeequip\src\lib,..\..\..\include,..\..\lib,..\..\..\tserialport,..\barcode,..\card,$(QTDIR)\include,tmp\ui\,.,.,tmp\moc\,C:\Qt\3.3.6\mkspecs\win32-msvc.net"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_CONSOLE,UNICODE,WIN32,_CRT_SECURE_NO_DEPRECATE,QT_DLL,QT_THREAD_SUPPORT,NDEBUG"
+				GeneratePreprocessedFile="0"
+				ExceptionHandling="FALSE"
+				RuntimeLibrary="2"
+				BufferSecurityCheck="FALSE"
+				AssemblerListingLocation="obj\"
+				ObjectFile="obj\"
+				ProgramDataBaseFileName=".\"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				IgnoreImportLibrary="TRUE"
+				AdditionalDependencies="qt-mt336.lib qtmain.lib tradeequip.lib tradeequip.lib tradeequip.lib tereader-barcode.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib imm32.lib winmm.lib wsock32.lib winspool.lib delayimp.lib"
+				OutputFile="..\..\bin\tereader-test.exe"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="$(QTDIR)\lib,/src/tradeequip/lib,../../../tradeequip/lib,../../lib"
+				DelayLoadDLLs="comdlg32.dll,oleaut32.dll,winmm.dll,wsock32.dll,winspool.dll"
+				GenerateDebugInformation="FALSE"
+				ProgramDatabaseFile=""
+				SubSystem="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				WarningLevel="0"
+				DefaultCharType="0"
+				EnableErrorChecks="1"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+		</Configuration>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="."
+			IntermediateDirectory="Debug\"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions="-Zm200 -w34100 -w34189"
+				Optimization="1"
+				AdditionalIncludeDirectories="..\..\..\tradeequip\src\lib,..\..\..\tradeequip\src\lib,..\..\..\include,..\..\lib,..\..\..\tserialport,..\barcode,..\card,$(QTDIR)\include,tmp\ui\,.,.,tmp\moc\,C:\Qt\3.3.6\mkspecs\win32-msvc.net"
+				PreprocessorDefinitions="_CONSOLE,UNICODE,WIN32,_CRT_SECURE_NO_DEPRECATE,QT_DLL,QT_THREAD_SUPPORT"
+				GeneratePreprocessedFile="0"
+				MinimalRebuild="TRUE"
+				ExceptionHandling="FALSE"
+				RuntimeLibrary="2"
+				BufferSecurityCheck="FALSE"
+				AssemblerListingLocation="Debug\"
+				ObjectFile="Debug\"
+				ProgramDataBaseFileName=".\"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				IgnoreImportLibrary="TRUE"
+				AdditionalDependencies="qt-mt336.lib qtmain.lib tradeequip.lib tradeequip.lib tradeequip.lib tereader-barcode.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib imm32.lib winmm.lib wsock32.lib winspool.lib delayimp.lib"
+				OutputFile="Debug\\tereader-test.exe"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="$(QTDIR)\lib,/src/tradeequip/lib,../../../tradeequip/lib,../../lib"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=""
+				SubSystem="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				WarningLevel="0"
+				DefaultCharType="0"
+				EnableErrorChecks="1"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat">
+			<File
+				RelativePath="testscanner.cpp">
+			</File>
+			<File
+				RelativePath="testscannerui.ui.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl">
+			<File
+				RelativePath="testscanner.h">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Moc&apos;ing testscanner.h..."
+						CommandLine="$(QTDIR)\bin\moc.exe testscanner.h -o tmp\moc\moc_testscanner.cpp
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						Outputs="tmp\moc\moc_testscanner.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Moc&apos;ing testscanner.h..."
+						CommandLine="$(QTDIR)\bin\moc.exe testscanner.h -o tmp\moc\moc_testscanner.cpp
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						Outputs="tmp\moc\moc_testscanner.cpp"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Generated MOC Files"
+			Filter="cpp;c;cxx;moc">
+			<File
+				RelativePath="tmp\moc\moc_testscanner.cpp">
+			</File>
+			<File
+				RelativePath="tmp\moc\moc_testscannerui.cpp">
+			</File>
+		</Filter>
+		<Filter
+			Name="Generated Form Files"
+			Filter="cpp;c;cxx;h;hpp;hxx;">
+			<File
+				RelativePath="tmp\ui\testscannerui.cpp">
+			</File>
+			<File
+				RelativePath="tmp\ui\testscannerui.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Forms"
+			Filter="ui"
+			ParseFiles="FALSE">
+			<File
+				RelativePath="testscannerui.ui">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Uic&apos;ing testscannerui.ui..."
+						CommandLine="$(QTDIR)\bin\uic.exe testscannerui.ui -o tmp\ui\testscannerui.h
+$(QTDIR)\bin\uic.exe testscannerui.ui -i testscannerui.h -o tmp\ui\testscannerui.cpp
+$(QTDIR)\bin\moc.exe tmp\ui\testscannerui.h -o tmp\moc\moc_testscannerui.cpp
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;$(QTDIR)\bin\uic.exe"
+						Outputs="tmp\ui\testscannerui.h;tmp\ui\testscannerui.cpp;tmp\moc\moc_testscannerui.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Uic&apos;ing testscannerui.ui..."
+						CommandLine="$(QTDIR)\bin\uic.exe testscannerui.ui -o tmp\ui\testscannerui.h
+$(QTDIR)\bin\uic.exe testscannerui.ui -i testscannerui.h -o tmp\ui\testscannerui.cpp
+$(QTDIR)\bin\moc.exe tmp\ui\testscannerui.h -o tmp\moc\moc_testscannerui.cpp
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe;$(QTDIR)\bin\uic.exe"
+						Outputs="tmp\ui\testscannerui.h;tmp\ui\testscannerui.cpp;tmp\moc\moc_testscannerui.cpp"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Translations Files"
+			Filter="ts"
+			ParseFiles="FALSE">
+			<File
+				RelativePath="..\..\translations\tereader-test-en.ts">
+			</File>
+			<File
+				RelativePath="..\..\translations\tereader-test-ru.ts">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

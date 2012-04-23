@@ -1,0 +1,3 @@
+TEMPLATE = subdirs
+SUBDIRS  = shtrih-fr
+DEFINES += _CRT_SECURE_NO_DEPRECATE 

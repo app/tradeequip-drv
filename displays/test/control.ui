@@ -1,0 +1,399 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>Form1</class>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>Form1</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>401</width>
+            <height>451</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Customer display control</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QCheckBox" row="1" column="2">
+            <property name="name">
+                <cstring>checkBox1</cstring>
+            </property>
+            <property name="text">
+                <string>Full screen line</string>
+            </property>
+        </widget>
+        <widget class="QLineEdit" row="10" column="0" rowspan="1" colspan="2">
+            <property name="name">
+                <cstring>lineEdit1_2</cstring>
+            </property>
+            <property name="frameShape">
+                <enum>LineEditPanel</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Sunken</enum>
+            </property>
+        </widget>
+        <widget class="QLabel" row="3" column="0" rowspan="1" colspan="2">
+            <property name="name">
+                <cstring>textLabel1_2</cstring>
+            </property>
+            <property name="text">
+                <string>Line 2</string>
+            </property>
+        </widget>
+        <widget class="QPushButton" row="12" column="0">
+            <property name="name">
+                <cstring>pushButton1</cstring>
+            </property>
+            <property name="text">
+                <string>Upload</string>
+            </property>
+        </widget>
+        <widget class="QLineEdit" row="2" column="0" rowspan="1" colspan="3">
+            <property name="name">
+                <cstring>lineEdit1</cstring>
+            </property>
+            <property name="frameShape">
+                <enum>LineEditPanel</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Sunken</enum>
+            </property>
+        </widget>
+        <widget class="QLineEdit" row="2" column="3">
+            <property name="name">
+                <cstring>le1m</cstring>
+            </property>
+        </widget>
+        <widget class="QLineEdit" row="11" column="0" rowspan="1" colspan="4">
+            <property name="name">
+                <cstring>lineEdit1_3</cstring>
+            </property>
+        </widget>
+        <widget class="QLabel" row="7" column="0" rowspan="1" colspan="4">
+            <property name="name">
+                <cstring>textLabel2_2</cstring>
+            </property>
+            <property name="text">
+                <string>Brightness</string>
+            </property>
+        </widget>
+        <widget class="QLineEdit" row="4" column="3">
+            <property name="name">
+                <cstring>le2m</cstring>
+            </property>
+            <property name="frameShape">
+                <enum>LineEditPanel</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Sunken</enum>
+            </property>
+        </widget>
+        <widget class="QSlider" row="8" column="0" rowspan="1" colspan="4">
+            <property name="name">
+                <cstring>slider1</cstring>
+            </property>
+            <property name="maxValue">
+                <number>255</number>
+            </property>
+            <property name="value">
+                <number>255</number>
+            </property>
+            <property name="orientation">
+                <enum>Horizontal</enum>
+            </property>
+            <property name="tickmarks">
+                <enum>Below</enum>
+            </property>
+            <property name="tickInterval">
+                <number>64</number>
+            </property>
+        </widget>
+        <widget class="QLineEdit" row="6" column="0" rowspan="1" colspan="4">
+            <property name="name">
+                <cstring>lineEdit3</cstring>
+            </property>
+        </widget>
+        <widget class="QLabel" row="9" column="0" rowspan="1" colspan="4">
+            <property name="name">
+                <cstring>textLabel1_3</cstring>
+            </property>
+            <property name="text">
+                <string>First char - last char</string>
+            </property>
+        </widget>
+        <widget class="QLabel" row="5" column="0" rowspan="1" colspan="4">
+            <property name="name">
+                <cstring>textLabel2</cstring>
+            </property>
+            <property name="text">
+                <string>Update interval, ms</string>
+            </property>
+        </widget>
+        <widget class="QPushButton" row="13" column="0" rowspan="1" colspan="4">
+            <property name="name">
+                <cstring>pushButton1_2_2</cstring>
+            </property>
+            <property name="text">
+                <string>Initialize display</string>
+            </property>
+        </widget>
+        <widget class="QPushButton" row="12" column="1" rowspan="1" colspan="3">
+            <property name="name">
+                <cstring>pushButton1_2</cstring>
+            </property>
+            <property name="text">
+                <string>Upload garbage</string>
+            </property>
+        </widget>
+        <widget class="QLineEdit" row="10" column="2" rowspan="1" colspan="2">
+            <property name="name">
+                <cstring>lineEdit1_2_2</cstring>
+            </property>
+            <property name="frameShape">
+                <enum>LineEditPanel</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Sunken</enum>
+            </property>
+        </widget>
+        <widget class="QLineEdit" row="4" column="0" rowspan="1" colspan="3">
+            <property name="name">
+                <cstring>lineEdit2</cstring>
+            </property>
+            <property name="frameShape">
+                <enum>LineEditPanel</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Sunken</enum>
+            </property>
+        </widget>
+        <widget class="QLabel" row="1" column="0" rowspan="1" colspan="2">
+            <property name="name">
+                <cstring>textLabel1</cstring>
+            </property>
+            <property name="text">
+                <string>Line 1</string>
+            </property>
+        </widget>
+        <widget class="QLabel" row="0" column="0" rowspan="1" colspan="2">
+            <property name="name">
+                <cstring>textLabel1_4</cstring>
+            </property>
+            <property name="text">
+                <string>Port number</string>
+            </property>
+        </widget>
+        <widget class="QComboBox" row="0" column="2">
+            <item>
+                <property name="text">
+                    <string>COM1</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>COM2</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>COM3</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>COM4</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>COM5</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>COM6</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>COM7</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>COM8</string>
+                </property>
+            </item>
+            <property name="name">
+                <cstring>comboBox1</cstring>
+            </property>
+            <property name="currentItem">
+                <number>0</number>
+            </property>
+            <property name="duplicatesEnabled">
+                <bool>false</bool>
+            </property>
+        </widget>
+        <widget class="QComboBox" row="0" column="3">
+            <item>
+                <property name="text">
+                    <string>9600</string>
+                </property>
+            </item>
+            <item>
+                <property name="text">
+                    <string>19200</string>
+                </property>
+            </item>
+            <property name="name">
+                <cstring>comboBox2</cstring>
+            </property>
+        </widget>
+        <widget class="QGroupBox" row="14" column="0" rowspan="1" colspan="4">
+            <property name="name">
+                <cstring>groupBox1</cstring>
+            </property>
+            <property name="title">
+                <string>Cashreg server</string>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QPushButton" row="1" column="0" rowspan="1" colspan="2">
+                    <property name="name">
+                        <cstring>pushButton4</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Apply</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="0" column="0">
+                    <property name="name">
+                        <cstring>textLabel1_5</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Server address</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="0" column="1">
+                    <property name="name">
+                        <cstring>lineEdit9</cstring>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="0" column="2">
+                    <property name="name">
+                        <cstring>textLabel2_3</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Port</string>
+                    </property>
+                </widget>
+                <widget class="QLineEdit" row="0" column="3">
+                    <property name="name">
+                        <cstring>lineEdit9_2</cstring>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+    </grid>
+</widget>
+<connections>
+    <connection>
+        <sender>lineEdit3</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form1</receiver>
+        <slot>onUpdateIntervalChanged(const QString&amp;)</slot>
+    </connection>
+    <connection>
+        <sender>pushButton1</sender>
+        <signal>clicked()</signal>
+        <receiver>Form1</receiver>
+        <slot>onUploadPushed()</slot>
+    </connection>
+    <connection>
+        <sender>pushButton1_2</sender>
+        <signal>clicked()</signal>
+        <receiver>Form1</receiver>
+        <slot>onUploadGarbage()</slot>
+    </connection>
+    <connection>
+        <sender>comboBox1</sender>
+        <signal>activated(int)</signal>
+        <receiver>Form1</receiver>
+        <slot>onComSelChanged()</slot>
+    </connection>
+    <connection>
+        <sender>comboBox2</sender>
+        <signal>activated(int)</signal>
+        <receiver>Form1</receiver>
+        <slot>onComboBox2ValChanged()</slot>
+    </connection>
+    <connection>
+        <sender>pushButton4</sender>
+        <signal>clicked()</signal>
+        <receiver>Form1</receiver>
+        <slot>onServerAddressChanged()</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>lineEdit1</tabstop>
+    <tabstop>checkBox1</tabstop>
+    <tabstop>le1m</tabstop>
+    <tabstop>lineEdit2</tabstop>
+    <tabstop>le2m</tabstop>
+    <tabstop>lineEdit3</tabstop>
+    <tabstop>lineEdit1_2</tabstop>
+    <tabstop>lineEdit1_2_2</tabstop>
+    <tabstop>lineEdit1_3</tabstop>
+    <tabstop>pushButton1</tabstop>
+    <tabstop>pushButton1_2</tabstop>
+    <tabstop>pushButton1_2_2</tabstop>
+    <tabstop>slider1</tabstop>
+</tabstops>
+<includes>
+    <include location="local" impldecl="in declaration">qsocket.h</include>
+    <include location="local" impldecl="in implementation">qtextcodec.h</include>
+    <include location="local" impldecl="in implementation">control.ui.h</include>
+</includes>
+<variables>
+    <variable>QSocket * sock;</variable>
+    <variable>QString host;</variable>
+    <variable>int port;</variable>
+</variables>
+<signals>
+    <signal>textChanged(const QString &amp;, const QString &amp;, const QString &amp;)</signal>
+    <signal>updateIntervalChanged(int)</signal>
+    <signal>brightnessChanged(int)</signal>
+    <signal>uploadChars(int, int, const QByteArray &amp;)</signal>
+    <signal>initDisplay()</signal>
+    <signal>comPortNumChanged(int pn)</signal>
+    <signal>baudRateChanged(int)</signal>
+</signals>
+<slots>
+    <slot access="protected">init()</slot>
+    <slot access="protected">onUpdateIntervalChanged( const QString &amp; val )</slot>
+    <slot access="protected">onLine1Changed( const QString &amp; l1 )</slot>
+    <slot access="protected">onLine2Changed( const QString &amp; l2 )</slot>
+    <slot access="protected">onUploadPushed()</slot>
+    <slot access="protected">onUploadGarbage()</slot>
+    <slot access="protected">onComSelChanged()</slot>
+    <slot access="protected">onComboBox2ValChanged()</slot>
+    <slot access="protected">socketConnected()</slot>
+    <slot access="protected">socketConnectionClosed()</slot>
+    <slot access="protected">socketReadyRead()</slot>
+    <slot access="protected">socketError( int )</slot>
+    <slot access="protected">onServerAddressChanged()</slot>
+</slots>
+<functions>
+    <function access="protected">timerEvent( QTimerEvent * )</function>
+    <function>reset()</function>
+</functions>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>
